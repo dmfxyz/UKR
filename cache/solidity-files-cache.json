@@ -1,0 +1,136 @@
+{
+  "_format": "ethers-rs-sol-cache-2",
+  "files": {
+    "/Users/jawaun/help-ukraine/ukr/lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1646350987782,
+      "contentHash": "5d45a46528eaf8a26f0a8d93669f3148",
+      "sourceName": "lib/ds-test/src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.23",
+      "artifacts": {
+        "DSTest": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "test.sol/DSTest.json"
+        }
+      }
+    },
+    "/Users/jawaun/help-ukraine/ukr/src/UKR.sol": {
+      "lastModificationDate": 1646351193704,
+      "contentHash": "7b696d415c71745f7c11ce62f5e26bbe",
+      "sourceName": "src/UKR.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Address": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UKR.sol/Address.json"
+        },
+        "Context": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UKR.sol/Context.json"
+        },
+        "IERC20": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UKR.sol/IERC20.json"
+        },
+        "IUniswapV2Factory": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UKR.sol/IUniswapV2Factory.json"
+        },
+        "IUniswapV2Pair": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UKR.sol/IUniswapV2Pair.json"
+        },
+        "IUniswapV2Router01": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UKR.sol/IUniswapV2Router01.json"
+        },
+        "IUniswapV2Router02": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UKR.sol/IUniswapV2Router02.json"
+        },
+        "Ownable": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UKR.sol/Ownable.json"
+        },
+        "SafeMath": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UKR.sol/SafeMath.json"
+        },
+        "UKR": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "UKR.sol/UKR.json"
+        }
+      }
+    },
+    "/Users/jawaun/help-ukraine/ukr/src/test/Contract.t.sol": {
+      "lastModificationDate": 1646350986879,
+      "contentHash": "7016738fe305fd90c36ea69a5cb2a78c",
+      "sourceName": "src/test/Contract.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "ContractTest": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Contract.t.sol/ContractTest.json"
+        }
+      }
+    }
+  }
+}
